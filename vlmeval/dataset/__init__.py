@@ -40,6 +40,7 @@ from .erqabench import ERQABench
 from .favor_bench import FavorBench
 from .timelens_bench import TimeLensBench
 from .momentseeker import MomentSeeker
+from .vue_tr import VUETR
 from .flames import FlamesDataset
 from .foxbench import FoxBench
 from .gobench import GOBenchDataset
@@ -354,7 +355,7 @@ VIDEO_DATASET = [
     Video_Holmes, VCRBench, CGAVCounting,
     EgoExoBench_MCQ, DREAM, VideoTT, VideoMMMU, MVUEval, OMTGBench, V2PBench, AVSpeakerBench,
     VideoMMEv2, ReVSI, SISBench, VideoEvalPro_MCQ, VideoEvalPro_OpenEnded, VRBenchDataset, FavorBench,
-    TimeLensBench, MomentSeeker
+    TimeLensBench, MomentSeeker, VUETR
 ]
 
 # add by EASI team
